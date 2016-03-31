@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RTMD>
+  <Settings>
+		<!-- Base urls from Yahoo -->
+		<BaseHistUrl>http://ichart.finance.yahoo.com/table.csv?s=</BaseHistUrl>
+		<BaseUrl>http://download.finance.yahoo.com/d/quotes.csv?s=</BaseUrl>
+		<BaseUrl2>http://finance.yahoo.com/d/quotes.csv?s=</BaseUrl2>
+		<BaseYQL>http://query.yahooapis.com/v1/public/yql</BaseYQL>
+		<!-- Display the exchange column -->
+		<Exchange>false</Exchange>
+		<!-- Date format is variable. You can use yahoo YYYY-mm-DD or simply mm/DD/YYYY (and others) -->
+		<StartDate></StartDate>
+		<EndDate></EndDate>
+		<OutputDirectory>c:\FinanceData\Download</OutputDirectory>
+			<!-- Format Extra (the & is prepended in code) see bottom of file for possible values -->
+		<Extra>&amp;f=sxl1c1p2</Extra>
+  </Settings>
+	<Symbols>
+		<!-- This is the order in which they will appear -->
+		<!-- Asia -->North America -->
+		<Ticker symbol="^DJI" caption="Dow Jones Industrials" />
+		<Ticker symbol="^OEX" caption="SP 100 Index" />
+		<Ticker symbol="^GSPC" caption="SP 500 (also ^SPX)" />
+		<Ticker symbol="^IXIC" caption="Nasdaq Composite" />
+		<Ticker symbol="^NDX" caption="Nasdaq 100" />
+		<Ticker symbol="^NYA" caption="NYSE Composite" />
+		<Ticker symbol="^RUI" caption="Russell 1000" />
+		<Ticker symbol="^RUT" caption="Russell 2000" />
+		<Ticker symbol="^MID" caption="SP 500 Mid Cap" />
+		<Ticker symbol="^WLX" caption="Wilshire 5000" />
+		<Ticker symbol="^DJT" caption="Dow Jones Transports" />
+		<Ticker symbol="^DJU" caption="Dow Jones Utilities" />
+		<Ticker symbol="FDN" caption="First Trust Dow Jones Internet (ETF)" />
+		<Ticker symbol="^GSPTSE" caption="Toronto Stock Exch (TSX)" />
+		<!-- Europe -->
+		<Ticker symbol="^FTSE" caption="London FTSE 100 (UK)" />
+		<Ticker symbol="^GDAXI" caption="German DAX" />
+		<Ticker symbol="^FCHI" caption="French CAC" />
+		<Ticker symbol="FTSEMIB.MI" caption="FTSE MIB (Italy)" />
+		<Ticker symbol="^IBEX" caption="IBEX 35 (Spain)" />
+		<Ticker symbol="^OMXC20" caption="OMX Copenhagen (Denmark)" />
+		<Ticker symbol="^OMX" caption="OMXS30 Helsinki - Nordic Findland/Sweeden" />
+		<Ticker symbol="^OSEAX" caption="OSE All Share (Norway)" />
+		<Ticker symbol="^SSMI" caption="Swiss Market" />
+		<Ticker symbol="^BFX" caption="BEL-20(Euronext - Brussels)" />
+		<Ticker symbol="GD.AT" caption="Athen Composite (Greece)" />
+		<Ticker symbol="AEX" caption="Amsterdam (Netherlands)" />
+		<!-- South America -->
+		<Ticker symbol="^MERV" caption="MERVAL (Argentina)" />
+		<Ticker symbol="^BVSP" caption="IBOVESPA - (Brazil)" />
+		<Ticker symbol="^MXX" caption="IPC (Mexico)" />
+		<Ticker symbol="^IPSA" caption="IPSA Chile" />
+		<!-- Asia -->
+		<Ticker symbol="^N225" caption="Nikkei 225 (Japan)" />
+		<Ticker symbol="000001.SS" caption="SSE (Shanghai) Composite" />
+		<Ticker symbol="^HSI" caption="Hang Seng (Hong Kong)" />
+		<Ticker symbol="^STI" caption="Singapore Straits Times" />
+		<Ticker symbol="^AORD" caption="Australia All Ordinaries" />
+		<Ticker symbol="^BSESN" caption="BSE 30 (India)" />
+		<Ticker symbol="^JKSE" caption="Jakarta Composite Index (Indonesia)" />
+		<Ticker symbol="^KLSE" caption="KLSE Composite (FTSE Bursa Malaysia)" />
+		<Ticker symbol="^NZ50" caption="NZSE" />
+		<Ticker symbol="^NSEI" caption="SP CNX NIFTY (India)" />
+		<Ticker symbol="^KS11" caption="KOSPI Composite Index (Korea)" />
+		<Ticker symbol="^TWII" caption="Taiwan Weighted" />
+		<!-- Pecious Metals/ Commodities -->
+		<Ticker symbol="GLD" caption="Gold ETF" />
+		<Ticker symbol="SLV" caption="Silver ETF" />
+		<Ticker symbol="^XAU" caption="Gold/Slv Index" />
+		<Ticker symbol="^HUI" caption="NYSE Gold Bugs Index" />
+		<Ticker symbol="GDX" caption="Gold/Slv Miners ETF" />
+		<Ticker symbol="GDXJ" caption="Junior Miners ETF" />
+		<Ticker symbol="AEM" caption="Agnico" />
+		<Ticker symbol="NEM" caption="Newmont" />
+		<Ticker symbol="GG" caption="Goldcorp" />
+		<Ticker symbol="SLW" caption="Silver Wheaton" />
+		<Ticker symbol="HL" caption="Hecla" />
+		<Ticker symbol="CDE" caption="Couer" />
+		<Ticker symbol="FNV" caption="Franco-Nevada Corporation" />
+		<Ticker symbol="OIL" caption="iPath SP GSCI Crude Oil TR ETN" />
+		<Ticker symbol="UNG" caption="United States Natural Gas" />
+		<Ticker symbol="DBA" caption="PowerShares DB Agriculture ETF" />
+		<Ticker symbol="DBC" caption="PowerShares DB Commodity Tracking ETF" />
+		<Ticker symbol="^DJC" caption="Commodity index" />
+		<!-- Interest rates/Bonds -->
+		<Ticker symbol="^TYX" caption="Treasury Yield 30 year" />
+		<Ticker symbol="^TNX" caption="CBOE Treasury Yield 10 year" />
+		<Ticker symbol="^FVX" caption="Treasury Yield 5 year" />
+		<Ticker symbol="^IRX" caption="13 week Treasury bill index" />
+		<Ticker symbol="VBMFX" caption="Vanguard Total Bond Market Index" />
+		<Ticker symbol="VBIIX" caption="Vanguard Interm-Term Bond Index" />
+		<Ticker symbol="SHY" caption="iShares 1-3 Year Treasury Bond" />
+		<Ticker symbol="IEI" caption="iShares 3-7 Year Treasury Bond" />
+		<Ticker symbol="IEF" caption="iShares 7-10 Year Treasury Bond" />
+		<Ticker symbol="TLT" caption="iShares 20+ Year Treasury Bond" />
+		<Ticker symbol="IGOV" caption="iShares International Treasury Bond ETF" />
+		<!-- Currency -->
+		<Ticker symbol="UUP" caption="PowerShares DB US Dollar Bullish ETF" />
+		<!-- real estate -->
+		<Ticker symbol="^RMZ" caption="MSCIUSREIT INDEX " />
+		<Ticker symbol="VGSIX" caption="Vanguard REIT Index Inv" />
+		<Ticker symbol="^HGX" caption="PHLX Housing Sector " />
+		<!-- Other -->
+		<Ticker symbol="^VIX" caption="VOLATILITY SP 500" />
+	</Symbols>
+</RTMD>
+
+<!--  Extra format string
+		Pricing 	Dividends
+a: Ask 	y: Dividend Yield
+b: Bid 	d: Dividend per Share
+b2: Ask (Realtime) 	r1: Dividend Pay Date
+b3: Bid (Realtime) 	q: Ex-Dividend Date
+p: Previous Close 	
+o: Open 	
+Date
+c1: Change 	d1: Last Trade Date
+c: Change & Percent Change 	d2: Trade Date
+c6: Change (Realtime) 	t1: Last Trade Time
+k2: Change Percent (Realtime) 	
+p2: Change in Percent 	
+Averages
+c8: After Hours Change (Realtime) 	m5: Change From 200 Day Moving Average
+c3: Commission 	m6: Percent Change From 200 Day Moving Average
+g: Day’s Low 	m7: Change From 50 Day Moving Average
+h: Day’s High 	m8: Percent Change From 50 Day Moving Average
+k1: Last Trade (Realtime) With Time 	m3: 50 Day Moving Average
+l: Last Trade (With Time) 	m4: 200 Day Moving Average
+l1: Last Trade (Price Only) 	
+t8: 1 yr Target Price 	
+Misc
+w1: Day’s Value Change 	g1: Holdings Gain Percent
+w4: Day’s Value Change (Realtime) 	g3: Annualized Gain
+p1: Price Paid 	g4: Holdings Gain
+m: Day’s Range 	g5: Holdings Gain Percent (Realtime)
+m2: Day’s Range (Realtime) 	g6: Holdings Gain (Realtime)
+52 Week Pricing 	Symbol Info
+k: 52 Week High 	v: More Info
+j: 52 week Low 	j1: Market Capitalization
+j5: Change From 52 Week Low 	j3: Market Cap (Realtime)
+k4: Change From 52 week High 	f6: Float Shares
+j6: Percent Change From 52 week Low 	n: Name
+k5: Percent Change From 52 week High 	n4: Notes
+w: 52 week Range 	s: Symbol
+	s1: Shares Owned
+	x: Stock Exchange
+	j2: Shares Outstanding
+Volume
+v: Volume 	
+a5: Ask Size 	
+b6: Bid Size 	Misc
+k3: Last Trade Size 	t7: Ticker Trend
+a2: Average Daily Volume 	t6: Trade Links
+	i5: Order Book (Realtime)
+Ratios 	l2: High Limit
+e: Earnings per Share 	l3: Low Limit
+e7: EPS Estimate Current Year 	v1: Holdings Value
+e8: EPS Estimate Next Year 	v7: Holdings Value (Realtime)
+e9: EPS Estimate Next Quarter 	s6 Revenue
+b4: Book Value 	
+j4: EBITDA 	
+p5: Price / Sales 	
+p6: Price / Book 	
+r: P/E Ratio 	
+r2: P/E Ratio (Realtime) 	
+r5: PEG Ratio 	
+r6: Price / EPS Estimate Current Year 	
+r7: Price / EPS Estimate Next Year 	
+s7: Short Ratio 	
+			Key:
+			s:	Symbol
+			x:	Exchange
+			l1:	Last Trade (Price Only)
+			c1:	Change
+			p2:	Change in Percent
+		-->

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>timeseries.csvcols</name>
+    <value>d,o,h,l,c,v,a</value>
+    <description>Data colums in csv. x - exchange, s -  symbol, d - date, t - timestamp,
+o - open, h - high, l - low, c - close, v - volume, a - adjusted close.
+</description>
+  </property>
+  
+  <property>
+    <name>timeseries.outcols</name>
+    <value>d,o,h,l,c,v,a</value>
+    <description>columns to output during reduction. x - exchange, s - symbol, d - date, t- timestamp, k - group key, r- header key (xchange-symbol), p - period key (e.g. YYYY-MM), o - Open, h - High, l - Low, c - Close, v - Volume, a - Adj_Close. Default outputs the columns in csv. Columns must exist in the original csv to be output. Otherwise a placeholder or the value 0.0 (or empty string) will be output. Values separated by commas.</description>
+  </property>
+
+  <property>
+    <name>timeseries.filter</name>
+    <value></value>
+    <description>records to output during reduction. </description>
+  </property>
+
+  <property>
+    <name>timeseries.period</name>
+    <value>m</value>
+    <description>Period of time in which timeseries will be reduced. y = Year, q = Quarter, m = Month, w = Week, d = Day</description>
+  </property>
+  
+  <property>
+    <name>timeseries.outhdr</name>
+    <value>t</value>
+    <description>t - true or f - false. Whether to output should contain the hdr as the first line.</description>
+  </property>
+<property>
+    <name>timeseries.sort</name>
+    <value>desc</value>
+    <description>Sort order for the records. desc - descending (default) or asc - ascending.</description>
+  </property>
+
+<property>
+    <name>timeseries.split</name>
+    <value>a</value>
+    <description>s - split filtered records into individual files. c - combine into one file and remove duplicates. a- all meaning  output both split and combine.</description>
+  </property>
+  
+  <property>
+    <name>timeseries.yahoo_download_xml</name>
+    <value>tracking2.xml</value>
+    <description>The path and name of the xml file used to specify what to download from
+    yahoo finance. The xml file can contain date ranges, stock ticker symbols, and the
+    directory to place the downloaded csv files.</description>
+  </property>
+</configuration>

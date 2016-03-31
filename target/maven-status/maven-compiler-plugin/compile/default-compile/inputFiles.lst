@@ -1,0 +1,14 @@
+C:\git\hadoop-timeseries-finance\src\main\java\YahooData.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSYahooFinanceDriver.java
+C:\git\hadoop-timeseries-finance\src\main\java\FileSystemPath.java
+C:\git\hadoop-timeseries-finance\src\main\java\Finance_TimeSeriesDriver.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSCompositeKey.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSConfProperties.java
+C:\git\hadoop-timeseries-finance\src\main\java\YahooConnection.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSData.java
+C:\git\hadoop-timeseries-finance\src\main\java\GroupingKeyComparator.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSDataMapper.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSPeriodReducer.java
+C:\git\hadoop-timeseries-finance\src\main\java\TSPeriodRecReducer.java
+C:\git\hadoop-timeseries-finance\src\main\java\GroupPartitioner.java
+C:\git\hadoop-timeseries-finance\src\main\java\OutputKeyComparator.java
